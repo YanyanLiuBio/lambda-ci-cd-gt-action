@@ -8,8 +8,8 @@ gh variable set AWS_ROLE_ARN --body "arn:aws:iam::512431263418:role/lambda-ci-cd
 
 # 3. Set Staging Variables
 gh variable set FUNCTION_NAME --env Staging --body "lambda-ci-cd-gt-action-staging"
-gh variable set URL --env Staging --body "https://arn:aws:lambda:us-east-1:512431263418:function:lambda-ci-cd-gt-action-staging"
+gh variable set URL --env Staging --body "https://mqlfd2aodwx3ukqf7m5p5cili40sdbjr.lambda-url.us-east-1.on.aws/"
 
 # 4. Set Production Variables
 gh variable set FUNCTION_NAME --env Production --body "lambda-ci-cd-gt-action-production"
-gh variable set URL --env Production --body "https://arn:aws:lambda:us-east-1:512431263418:function:lambda-ci-cd-gt-action-production"
+gh variable set URL --env Production --body "https://ymqar32idfry4obfhfyblgqwrm0zhpyc.lambda-url.us-east-1.on.aws/"
